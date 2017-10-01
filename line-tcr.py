@@ -22,10 +22,10 @@ import time,random,sys,json,codecs,threading,glob,re
 #kc.loginResult()
 
 cl = LINETCR.LINE()
-cl.login(token="ElsGkF4Al30VdZiQwPD4.dHJZNecxo/xYaCWBafkl5a.d4aZWVn5Z0n2N4KoiRz7xgPF4ybPvesnSXXukQWOdQY=")
+cl.login(token="ElLu8nFO6H4PgXtsTqs5.ECAefQjTFBIlNuqelA+u9q.N61ZAvlZDCya36vkXJ6ns0VSeQXeM+BYKPVgKO7/avs=")
 
 ki = LINETCR.LINE()
-ki.login(token="authoken kamu")
+ki.login(token="ElsGkF4Al30VdZiQwPD4.dHJZNecxo/xYaCWBafkl5a.d4aZWVn5Z0n2N4KoiRz7xgPF4ybPvesnSXXukQWOdQY")
 
 kk = LINETCR.LINE()
 kk.login(token="autotoken kamu")
