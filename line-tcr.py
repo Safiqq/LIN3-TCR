@@ -22,16 +22,16 @@ import time,random,sys,json,codecs,threading,glob,re
 #kc.loginResult()
 
 cl = LINETCR.LINE()
-cl.login(token="ElLu8nFO6H4PgXtsTqs5.ECAefQjTFBIlNuqelA+u9q.N61ZAvlZDCya36vkXJ6ns0VSeQXeM+BYKPVgKO7/avs=")
+cl.login(token="token_bot1")
 
 ki = LINETCR.LINE()
-ki.login(token="ElsGkF4Al30VdZiQwPD4.dHJZNecxo/xYaCWBafkl5a.d4aZWVn5Z0n2N4KoiRz7xgPF4ybPvesnSXXukQWOdQY")
+ki.login(token="token_bot2")
 
 kk = LINETCR.LINE()
-kk.login(token="autotoken kamu")
+kk.login(token="token_bot3")
 
 kc = LINETCR.LINE()
-kc.login(token="authoken kamu")
+kc.login(token="token_bot4")
 
 cl
 
@@ -82,8 +82,8 @@ Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 
-Bots=[mid,Amid,Bmid,Cmid,"u33d60593ad472ed11e7907fb1daee6ae"]
-admin=["u33d60593ad472ed11e7907fb1daee6ae"]
+Bots=[mid,Amid,Bmid,Cmid,"token_kamu"]
+admin=["token_kamu"]
 wait = {
     'contact':True,
     'autoJoin':True,
